@@ -1,0 +1,47 @@
+
+<h1>Pipes in angular</h1>
+<div class="grid">
+<div class="grid-1">
+  <div class="date">
+    <h2>Date pipes</h2>
+    <p>Full date:{{date}}</p>
+    <p>Short Date:{{date|date:'shortDate'}}</p>
+    <p>Medium Date:{{date|date:'mediumDate'}}</p>
+    <p>Full Date:{{date|date:'fullDate'}}</p>
+    <p>Short Time:{{date|date:'shortTime'}}</p>
+    <p>Medium Time:{{date|date:'mediumTime'}}</p>
+    <p>Full Time:{{date|date:'fullTime'}}</p>
+  </div>
+
+  <div class="number">
+    <h2>Number pipes</h2>
+    <p>No formatting:{{number|number}}</p>
+    <p>2 Decimal places: {{number|number:'3.2-5'}}</p>
+  </div>
+  <div>
+    <p class="footer">Made With <img src="../assets/Vector.svg"> By ProGrad</p>
+  </div>
+</div>
+<div class="grid-2">
+  <div class="currency">
+    <h2>Currency Pipes</h2>
+    <p>No formatting:{{number}}</p>
+    <p>USD Dollar($):{{number|currency:'USD'}}</p>
+    <p>USD Dollar:{{number|currency:'USD':'code'}}</p>
+    <p>INR():{{number|currency:'INR'}}</p>
+    <p>INR:{{number|currency:'INR':'code'}}</p>
+  </div>
+
+  <div class="string">
+    <h2>String Related Pipes</h2>
+    <p>Actual message:{{string}}</p>
+    <p>Lower Case :{{string|lowercase}}</p>
+    <p>Upper Case :{{string|uppercase}}</p>
+  </div>
+
+  <div class="percentage">
+    <h2>Percentage Pipes</h2>
+    <p>2 place formatting:{{number|percent:'5.2-5'}}</p>
+  </div>
+</div>
+</div>

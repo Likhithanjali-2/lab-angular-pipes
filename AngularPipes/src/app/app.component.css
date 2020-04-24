@@ -1,0 +1,36 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.date,.number,.percentage,.currency,.string{
+    border: 2px solid grey;
+    box-shadow: 5px 10px 18px lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: ghostwhite;
+}
+.number{
+    margin-top: 60px;
+}
+h1{
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: orangered;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+}
+.footer{
+    margin-top: 40px;
+    font-size: 1.2em;
+    margin-left: 24px;
+}
